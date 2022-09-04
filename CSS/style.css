@@ -1,0 +1,253 @@
+* {
+    /*Con el siguiente codigo hacemos 
+    que la pantalla se ajuste automaticamente*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+
+main {
+    
+    display:flex;       
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebarparent {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20% ;
+    min-width: 200px;
+    min-height: 500px;
+    border: 5PX solid yellow;
+    background-color: red;
+}
+.sidebar {    
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    
+}
+
+.parent {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80% ;
+    min-width: 200px;
+    min-height: 500px;
+    border: 5PX solid yellow;
+    background-color: red;
+    
+    
+}
+
+
+
+
+
+
+
+
+.box {
+    display: inline-block;
+    justify-items:flex-start;
+    
+}
+
+#one {
+    
+    background-color: black;
+    width: 50vh;
+    height: 5vw;
+}
+
+#two {
+    
+    background-color:aquamarine;
+    width: 40vh;
+    height: 5vw;
+    left: 6rem;
+   
+ 
+    border: 2px red double;
+    display: inline-block;
+    bottom: -60px;
+
+}
+
+/* Por elemento. Se llama el elemento especifico que esta en HTML
+y le asignamos el estilo que deseamos */
+h1{
+   
+    text-align: center; 
+    
+    font-family: inherit; 
+    
+    color: greenyellow;
+    
+}
+
+h2{
+    
+    font-size: 1rem;
+    text-align:center; 
+    
+    
+    font-family: inherit; 
+    
+    color: black;    
+    
+}
+
+
+/* Por class. En el HTMl a las etiquetas que queremos le colocamos class="parrafo" y despues 
+lo colocamos en el archivo CSS, empezando con .parrafo y le asignamos estilo*/
+.parrafo {
+    
+    font-size: inherit; 
+
+}
+
+/* Por ID. En el HTMl a las etiquetas que queremos le colocamos ID="texto" y despues 
+lo colocamos en el archivo CSS, empezando con #texto y le asignamos estilo*/
+
+.Lista {
+    color: white;
+    background-color: black;
+    width: 10rem;
+    max-width: 100%;
+    height: auto;
+    font-size: 2rem;      
+    
+}
+
+.texto {
+  color: black;
+  font-size: 1rem;
+   
+
+
+}
+.textoa {
+    color: black;
+  font-size: 1rem;
+  
+  
+  }
+
+  .textob {
+    color: black;
+    font-size: 1rem;
+}
+
+header {
+    background-color: brown;
+}
+
+/* Seucodigo de eventos y elementos
+El seudocodigo de clases define el estilo de un estado especial de un elemento. Empieza con :
+E seudocodigo de un elemento define el estilo de una parte especifica de un elemento.Empieza con ::*/
+
+.main-nav {
+    
+    display: inline-block;
+    list-style: none;
+    margin-top: 2px; 
+    padding-left: 2px;  
+    padding-bottom: 1px;
+    background-position: 1px;
+    font-size: 1.8rem;
+    position: relative;
+  
+
+     
+}
+
+.prelogo {
+    display: inline-block;
+    list-style: none;
+    margin-top: 2px; 
+    padding-left: 2px;  
+    padding-bottom: 1px;
+    background-position: 1px;
+    font-size: 1.8rem;
+    position: relative;
+   
+    
+}
+
+
+
+
+
+
+
+.main-nav__item {
+    display: inline-block;
+        
+}
+
+.main-nav__item a{
+    
+    background-color: white;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    border-radius: 1rem;
+    
+    
+}
+
+.main-nav__item a:hover {
+    color: blue;
+
+}
+
+.main-nav__item a:active {
+    color: orangered;
+
+}
+
+.main-nav__item a::after {
+    content: " / ";
+}
+
+/*Modelo de Caja*/
+
+
+
+
+.video {    
+      
+    max-width: 25%;
+    max-height: 25%;
+
+}
+.imagen1 {    
+    
+    
+       
+    max-width: 15%;
+    max-height: 15%;
+
+}
+
+main span {
+    color: black;
+    
+    
+    font-size: 1rem;
+}
+
+

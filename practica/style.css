@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    font-size: 62.5%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/*codigo para el contenedor del navegador*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+
+
+.img1 {
+    object-fit: cover;
+    object-position: center;
+    width: 30%; 
+    
+}
+
+.contextonav {
+    display: inline-block;
+    background-color: white;
+    object-fit: cover;    
+}
+
+.contextosub1, .contextosub2, .contextosub3 {
+    list-style: none;      
+    
+    display: inline-block;      
+}
+
+a {
+    color: black;
+    font-size: 2rem;        
+    text-decoration: none; 
+    text-align: end;  
+    font-family: inherit;    
+}
+
+/*Codigo para el contenedor de main*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 480px;
+    background-color:green;
+}
+
+.clase1, .clase2, .clase3 {
+    width: 100%;
+    background-color: yellow;
+}
+
+.clase2 {
+        background-color: red;
+        display: flex;
+
+}
+.clase3  {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Codigo para el footer*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+/* COdigo para el primer div */
+
+p {
+    padding: 0.5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/*Codigo para el segundo div*/
+
+.img2 {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height:max-content;   
+    
+}
+
+/*Codigo para el tercer div*/
+
+.Lista {
+    font-size: 3rem;
+    display: flex;
+    padding: 2rem;
+  
+    
+}
+
+.textoa, .textob, .textoc {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: auto;
+    height:min-content;
+    padding: 3rem;
+}

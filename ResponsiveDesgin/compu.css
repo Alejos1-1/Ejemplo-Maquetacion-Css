@@ -1,0 +1,20 @@
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    /*EL margin de arriba se puede genera mas corodo con
+    margin: 0 auto;*/
+}
+
+.clase1 {
+    width: 50%;
+    order: 1;
+}
+.clase4 {
+    width: 100%;
+}
+
+.clase5 {
+    width: 50%;
+    order: 2;
+}

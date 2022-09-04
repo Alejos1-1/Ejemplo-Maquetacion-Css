@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clase1, .clase2, .clase3, .clase4, .clase5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.clase1 {
+    background-color: blue;
+}
+.clase2 {
+    background-color: rgba(20, 20, 233, 0.747);
+}
+.clase3 {
+    background-color: rgba(27, 27, 190, 0.541);
+}
+.clase4 {
+    
+    background-color: rgba(17, 66, 121, 0.486);
+}
+.clase5 {
+    background-color: rgba(16, 152, 170, 0.637);
+}
+
+
